@@ -1,0 +1,74 @@
+.gridContainer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: gray;
+    gap: 10px;
+}
+
+.head {
+    margin: 10px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    height: 100px;
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    background-color: purple;
+}
+
+.foot {
+    margin: 10px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    height: 100px;
+    background-color: purple;
+}
+
+.side {
+    display: grid;
+    grid-row: 2/5;
+    margin: 10px;
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    background-color: aqua;
+}
+
+.content1 {
+    display: grid;
+    grid-column: 2/4;
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+    height: 200px;
+    text-align: center;
+    background-color: blue;
+}
+
+.content2 {
+    display: grid;
+    grid-column: 2/3;
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    height: 200px;
+    background-color: blue;
+}
+
+.content3 {
+    display: grid;
+    grid-column: 3/4;
+    height: 200px;
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    background-color: blue;
+}
